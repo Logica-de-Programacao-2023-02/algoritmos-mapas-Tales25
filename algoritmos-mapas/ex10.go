@@ -38,21 +38,3 @@ func createPairsMap(sliceInt []int) map[string]int {
 
 	return pairsMap
 }
-
-//func main() {
-//	slice := []int{1, 2, 2, 3, 4, 4}
-//	combinations := make(map[string]int)
-//
-//	for i := 0; i < len(slice); i++ {
-//		for j := 0; j < len(slice); j++ {
-//			if i != j {
-//				combination := fmt.Sprintf("(%d, %d)", slice[i], slice[j])
-//				combinations[combination]++
-//			}
-//		}
-//	}
-//
-//	for combination, frequency := range combinations {
-//		fmt.Printf("%s - Frequência: %d\n", combination, frequency)
-//	}
-//}
